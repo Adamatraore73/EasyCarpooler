@@ -420,6 +420,7 @@
 				3891E3721AAB88F300D384AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3891E3731AAB88F300D384AC /* Build configuration list for PBXNativeTarget "EasyCarpoolerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				3891E3751AAB88F300D384AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

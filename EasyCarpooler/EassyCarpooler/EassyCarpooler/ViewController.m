@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *emailLabel;
 
 @end
 
@@ -22,6 +23,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self performSegueWithIdentifier:@"goto_login" sender:self];
+}
+
+- (IBAction)logoutTapped:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"goto_login" sender:self];
 }
 
 @end
