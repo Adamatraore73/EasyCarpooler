@@ -23,9 +23,7 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func signinTapped(sender: UIButton) {
-        //TODO: Signin logic goes here...
-    }
+
     
 
     /*
